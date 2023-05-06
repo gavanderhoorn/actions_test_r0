@@ -1,0 +1,10 @@
+on:
+  pull_request:
+jobs:
+  build:
+    name: Some process
+    runs-on: ubuntu-latest
+    steps:
+      - name: Some step
+        run: |
+          echo "Some step output"
