@@ -1,0 +1,13 @@
+name: Triggerable check
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    name: Some sleeping process
+    runs-on: ubuntu-latest
+    steps:
+      - name: Some sleeping step
+        run: |
+          echo "Some step output"
+          sleep 10
+          echo "Finished"
