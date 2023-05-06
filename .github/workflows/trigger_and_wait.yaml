@@ -1,3 +1,4 @@
+name: Important CI check
 on:
   pull_request:
 jobs:
